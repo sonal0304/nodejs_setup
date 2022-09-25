@@ -6,7 +6,8 @@ const UsersContller = require('./controllers/UsersController');
  * These below routes are use to handle users activities
  * for eg. login, signup, forgot password, reset password, update profile, 
  */
-router.get('/', UsersContller.login);
+router.post('/', UsersContller.login);
+router.post('/signup', UsersContller.signup);
 
 
 module.exports = router;
