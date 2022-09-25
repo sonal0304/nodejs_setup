@@ -6,6 +6,7 @@ class UsersContller{
      * They need to send username and password to login  
      */
     login(req, res, next) {
+        
         res.send('Wow this works from controller');
     } // endof login function
 
